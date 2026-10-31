@@ -1,0 +1,14 @@
+{
+  "name": "z7r-store-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Z7R Store web workspace for archive inspection and vehicle text editing",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "yauzl": "^3.2.0"
+  }
+}

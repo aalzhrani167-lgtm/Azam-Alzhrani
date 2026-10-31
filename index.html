@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Z7R Store | Mod Workshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0915;--panel:#171023;--panel2:#211632;--line:#39264e;--purple:#9b5de5;--light:#d9b8ff;--muted:#aa9bb9;--white:#f7f1ff;--green:#65d6a5;--red:#ff7e96}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -20%,#44216c 0,transparent 42%),var(--bg);color:var(--white);font-family:Cairo,Arial,sans-serif}
+header{max-width:1180px;margin:auto;padding:26px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.brand{display:flex;align-items:center;gap:13px}.logo{width:48px;height:48px;border-radius:15px;background:linear-gradient(145deg,#bd82ff,#5e25a0);display:grid;place-items:center;font-weight:900;font-size:17px;box-shadow:0 8px 30px #9b5de544}
+h1{font-size:23px;margin:0;letter-spacing:1px}small,.muted{color:var(--muted)}.pill{border:1px solid var(--line);border-radius:99px;padding:7px 13px;color:var(--light);font-size:12px}
+main{max-width:1180px;margin:auto;padding:10px 22px 50px}.hero{padding:30px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(120deg,#261638,#171023 65%);display:flex;justify-content:space-between;align-items:center;gap:25px;overflow:hidden}
+.hero h2{font-size:clamp(26px,4vw,42px);margin:0 0 8px;line-height:1.3}.hero p{color:#c1b2d0;max-width:650px;margin:0}.hero-mark{font-size:90px;opacity:.16;font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}.tile,.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px}.tile .ico{font-size:24px;color:var(--light)}.tile b{display:block;margin:5px 0}.tile span{font-size:12px;color:var(--muted)}
+.panel{margin-top:16px}.panel h3{margin:0 0 14px;font-size:18px}.upload{border:1px dashed #8054a9;background:#1c1329;border-radius:16px;padding:26px;text-align:center}.upload input{display:none}.btn{border:0;background:linear-gradient(120deg,#a65cf0,#7137b4);color:white;padding:11px 18px;border-radius:12px;font-family:inherit;font-weight:800;cursor:pointer}.btn:disabled{opacity:.45;cursor:not-allowed}.btn.secondary{background:#30203f;border:1px solid var(--line)}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.status{color:var(--muted);font-size:13px;margin-top:12px}.layout{display:grid;grid-template-columns:1fr 1fr;gap:15px}.filelist{max-height:340px;overflow:auto}.file{padding:9px 11px;border-bottom:1px solid #30213e;display:flex;justify-content:space-between;gap:8px;font-size:12px;cursor:pointer}.file:hover,.file.active{background:#2a1b3a}.file small{white-space:nowrap}.editor textarea{width:100%;min-height:240px;background:#0e0a16;border:1px solid var(--line);border-radius:12px;color:#eee;padding:13px;font:13px/1.7 monospace;direction:ltr;text-align:left}.report{white-space:pre-wrap;background:#0e0a16;padding:14px;border-radius:12px;color:#d7c8e7;font:12px/1.7 monospace;direction:ltr;text-align:left;overflow:auto}
+footer{text-align:center;color:#776887;padding:28px;font-size:12px}.notice{border-right:3px solid #b784f5;background:#251a34;padding:12px 14px;border-radius:8px;color:#d8c7e8;font-size:12px;margin-top:12px}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.hero-mark{display:none}header{padding:20px 16px}main{padding:8px 16px 35px}.hero{padding:22px}}
+</style></head>
+<body>
+<header><div class="brand"><div class="logo">Z7R</div><div><h1>Z7R STORE</h1><small>MOD WORKSHOP · WEB EDITION</small></div></div><span class="pill">BETA 1.0</span></header>
+<main>
+<section class="hero"><div><span class="pill">WELCOME TO Z7R WORKSHOP</span><h2>ملفاتك، تعديلاتك،<br><span style="color:#c99aff">في مكان واحد.</span></h2><p>ارفع أرشيفك، استعرض محتوياته، عدّل ملفات الإعدادات والنصوص، ثم نزّل نسخة ZIP جديدة.</p></div><div class="hero-mark">Z7R</div></section>
+<section class="grid">
+<div class="tile"><div class="ico">🚘</div><b>محاكي الحوادث</b><span>تحرير ملفات النصوص والإعدادات</span></div>
+<div class="tile"><div class="ico">🎮</div><b>PS4 / GTA V</b><span>فحص أولي لبنية ملفات المود</span></div>
+<div class="tile"><div class="ico">🗂️</div><b>ZIP Manager</b><span>رفع وفك ضغط وإعادة تجميع</span></div>
+<div class="tile"><div class="ico">🔎</div><b>FiveM Inspector</b><span>التعرف على YFT وYTD وMETA</span></div>
+</section>
+<section class="panel">
+<h3>① ارفع ملف ZIP</h3>
+<div class="upload"><div style="font-size:32px">📦</div><b>اسحب ملفك إلى هنا أو اختره من جهازك</b><p class="muted" style="font-size:12px">الحد الأعلى المهيأ: 1GB · ZIP فقط</p><label class="btn" for="archive">اختيار ملف ZIP</label><input id="archive" type="file" accept=".zip,application/zip"></div>
+<div class="actions"><button class="btn" id="uploadBtn" disabled>رفع وفك الضغط</button><button class="btn secondary" id="downloadBtn" disabled>تنزيل ZIP بعد التعديل</button><button class="btn secondary" id="reportBtn" disabled>تقرير فحص الملفات</button></div>
+<div class="status" id="status">لم يتم رفع ملف بعد.</div>
+<div class="notice">ملاحظة: حد 1GB يتطلب استضافة وخادمًا يسمحان بهذا الحجم، ومساحة تخزين كافية. قد تفرض شركة الاستضافة حدًا أقل.</div>
+</section>
+<section class="panel"><h3>② استعراض الملفات وتعديل العبارات</h3><div class="layout"><div><div class="muted" style="font-size:12px;margin-bottom:8px">ملفات المشروع — اختر ملفًا نصيًا لتعديله</div><div class="filelist" id="fileList"><div class="muted">ستظهر الملفات هنا بعد رفع الأرشيف.</div></div></div><div class="editor"><div id="selected" class="muted" style="font-size:12px;margin-bottom:8px">لم يتم اختيار ملف</div><textarea id="editor" placeholder="محتوى الملف النصي سيظهر هنا..." disabled></textarea><div class="actions"><button class="btn" id="saveBtn" disabled>حفظ التعديل</button></div><div class="status">التحرير مفعّل لامتدادات النصوص والإعدادات المعروفة فقط. لا يتم تعديل ملفات YFT/YTD الثنائية.</div></div></div></section>
+<section class="panel"><h3>③ فحص التوافق وتجهيز PS4</h3><div class="report" id="report">لم يتم إنشاء تقرير بعد.</div><div class="notice">فحص الملفات لا يعني تحويلها. هذه النسخة لا تنشئ RPF صالحًا تلقائيًا ولا تدّعي ضمان توافق FiveM مع PS4. يلزم محرك تحويل متخصص واختبار فعلي على GTA V 1.56.</div></section>
+</main>
+<footer>جميع الحقوق محفوظة © Z7R Store · Built for creators</footer>
+<script>
+let jobId=null, selectedPath=null;
+const $=id=>document.getElementById(id);
+const editable=[".txt",".ini",".cfg",".xml",".json",".meta",".lua",".ymt",".ytyp"];
+$("archive").addEventListener("change",e=>{$("uploadBtn").disabled=!e.target.files.length;$("status").textContent=e.target.files[0]?.name||"لم يتم اختيار ملف";});
+$("uploadBtn").onclick=async()=>{
+ const file=$("archive").files[0]; if(!file)return;
+ $("uploadBtn").disabled=true;$("status").textContent="جارٍ الرفع وفك الضغط... قد يستغرق ذلك وقتًا حسب حجم الملف.";
+ const fd=new FormData();fd.append("archive",file);
+ try{
+  const r=await fetch("/api/upload",{method:"POST",body:fd});const data=await r.json();if(!r.ok)throw Error(data.error||"فشل الرفع");
+  jobId=data.id;$("status").textContent=`تم فك الضغط: ${data.extracted} ملفًا. الحجم بعد الفك: ${(data.expandedBytes/1024/1024).toFixed(1)} MB`;
+  renderFiles(data.entries);$("downloadBtn").disabled=false;$("reportBtn").disabled=false;
+ }catch(e){$("status").textContent="خطأ: "+e.message;}finally{$("uploadBtn").disabled=false;}
+};
+function renderFiles(entries){$("fileList").innerHTML="";for(const f of entries){const row=document.createElement("div");row.className="file";const name=document.createElement("span");name.textContent=f.path;const size=document.createElement("small");size.textContent=(f.size/1024).toFixed(1)+" KB";row.append(name,size);row.onclick=()=>openText(f);$("fileList").append(row);}}
+async function openText(f){
+ selectedPath=f.path;$("selected").textContent=f.path;$("editor").value="";$("editor").disabled=true;$("saveBtn").disabled=true;
+ const ext="."+f.path.split(".").pop().toLowerCase();if(!editable.includes(ext)){ $("status").textContent="هذا الملف غير مفعّل للتحرير النصي.";return; }
+ try{const r=await fetch(`/api/jobs/${jobId}/text?path=${encodeURIComponent(f.path)}`);const d=await r.json();if(!r.ok)throw Error(d.error);$("editor").value=d.content;$("editor").disabled=false;$("saveBtn").disabled=false;$("status").textContent="تم فتح الملف للتحرير.";}catch(e){$("status").textContent=e.message;}
+}
+$("saveBtn").onclick=async()=>{try{const r=await fetch(`/api/jobs/${jobId}/text`,{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({path:selectedPath,content:$("editor").value})});const d=await r.json();if(!r.ok)throw Error(d.error);$("status").textContent="تم حفظ التعديلات."; }catch(e){$("status").textContent=e.message;}};
+$("downloadBtn").onclick=()=>{if(jobId)location.href=`/api/jobs/${jobId}/download`;};
+$("reportBtn").onclick=async()=>{try{const r=await fetch(`/api/jobs/${jobId}/report`);const d=await r.json();$("report").textContent=JSON.stringify(d,null,2);}catch(e){$("report").textContent=e.message;}};
+</script></body></html>
